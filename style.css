@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+body {
+  font-family: "League Spartan";
+  margin: 0;
+}
+h1 {
+  width: 70%;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+p {
+  font-size: 15px;
+}
+.maintext p {
+  color: hsl(303, 10%, 53%);
+
+  width: 65%;
+}
+.maintext {
+  margin-left: 50px;
+  float: left;
+  width: 45%;
+}
+.star-reviews {
+  width: 30%;
+  display: inline-block;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.card {
+  padding: 10%;
+  z-index: 1;
+}
+.review-section {
+  width: 100%;
+}
+.customer-card {
+  width: 290px;
+  height: 200px;
+  display: inline-block;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 5px;
+  margin: 0 50px 50px;
+}
+.top-section {
+  margin-bottom: 90px;
+}
+.customer-card img {
+  margin: 10px;
+  border-radius: 50%;
+  float: left;
+  width: 20%;
+}
+.customer-name {
+  color: #fff;
+  font-weight: 700;
+}
+.customer-tag {
+  color: hsl(333, 80%, 67%);
+}
+.customer-reviews {
+  color: #fff;
+  margin: 20px;
+  padding-top: 10px;
+}
+.customer-card-3 {
+  position: relative;
+  top: 20px;
+}
+.rating {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+.rating-2 {
+  position: relative;
+  left: 20px;
+}
+.rating-3 {
+  position: relative;
+  left: 40px;
+}
+#img1 {
+  width: 70%;
+  position: relative;
+  right: 200px;
+  bottom: 150px;
+  margin-bottom: -700px;
+}
+#img2 {
+  width: 70%;
+  position: relative;
+  left: 700px;
+  top: 200px;
+  margin-bottom: -700px;
+}
+@media (max-width: 600px) {
+  body {
+    text-align: center;
+  }
+  .card {
+    width: 90%;
+  }
+  .maintext {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .maintext p {
+    width: 100%;
+  }
+  h1 {
+    width: 100%;
+  }
+  .star-reviews {
+    width: 100%;
+  }
+  .rating-2 {
+    position: relative;
+    left: 0px;
+  }
+  .rating-3 {
+    position: relative;
+    left: 0px;
+  }
+  .customer-card {
+    width: 80%;
+    padding: 15px;
+  }
+  .customer-card .customer-name,
+  .customer-card .customer-tag {
+    text-align: left;
+  }
+  .customer-reviews {
+    margin-top: 30px;
+  }
+}
